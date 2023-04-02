@@ -1,5 +1,5 @@
 from django.test import TestCase
-from pet_kare.models import Pet
+from pets.models import Pet
 from groups.models import Group
 from traits.models import Trait
 from unittest.mock import patch, MagicMock

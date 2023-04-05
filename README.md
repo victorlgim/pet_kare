@@ -65,7 +65,7 @@ pytest --testdox -vvs tests/tarefas/tarefa_2/
 pytest --testdox -vvs tests/tarefas/tarefa_3/
 ```
 
-Você também pode rodar cada método de teste isoladamente seguindo uma substring, adicionando a flag `-k` seguido da substring a ser encontrada
+Você também pode rodar cada método de teste isoladamente seguindo uma substring, adicionando a flag `-k` seguido da substring a ser encontrada 
 (atenção, se o pytest achar multiplos métodos que contenham a mesma substring em seu nome, ele executará todos):
 
 ```shell

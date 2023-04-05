@@ -4,7 +4,7 @@ from django.forms import model_to_dict
 from rest_framework.test import APITestCase
 
 from groups.models import Group
-from pet_kare.models import Pet
+from pets.models import Pet
 from traits.models import Trait
 from tests.factories.pet_factories import create_multiple_pets
 

@@ -1,5 +1,5 @@
 from groups.models import Group
-from pet_kare.models import Pet
+from pets.models import Pet
 from django.db.models import QuerySet
 from traits.models import Trait
 

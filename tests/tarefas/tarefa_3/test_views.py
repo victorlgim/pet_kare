@@ -5,7 +5,7 @@ from django.db import models
 from rest_framework.test import APITestCase
 
 from groups.models import Group
-from pet_kare.models import Pet
+from pets.models import Pet
 from traits.models import Trait
 from tests.factories.pet_factories import create_multiple_pets
 
